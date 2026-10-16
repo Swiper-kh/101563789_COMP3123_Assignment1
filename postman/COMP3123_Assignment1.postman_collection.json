@@ -1201,7 +1201,7 @@
               "bearer": [
                 {
                   "key": "token",
-                  "value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYWNrZXIifQ.invalidsignature",
+                  "value": "not.a.valid-token",
                   "type": "string"
                 }
               ]
