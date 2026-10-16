@@ -4,7 +4,7 @@
 
 A secure RESTful backend built with **Node.js, Express and MongoDB (Mongoose)**. Users sign up, log in to receive a JWT, and manage **their own** employees. Every employee belongs to the user who created it, and no user can read, change or delete another user's employees.
 
-- **Live API (Vercel):** `https://YOUR-PROJECT.vercel.app` _(replace after deploying)_
+- **Live API (Vercel):** `https://101563789-comp-3123-assignment1.vercel.app` 
 - **Health check:** `GET /health`
 - **Postman collection:** [`postman/COMP3123_Assignment1.postman_collection.json`](postman/COMP3123_Assignment1.postman_collection.json)
 
