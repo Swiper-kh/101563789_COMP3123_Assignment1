@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Generated logs (a redacted sample is kept in logs/sample/)
+logs/*.log
+
+.DS_Store
+npm-debug.log*
