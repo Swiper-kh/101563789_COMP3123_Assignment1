@@ -1,0 +1,135 @@
+{"db":"comp3123_assignment1","host":"127.0.0.1","level":"info","message":"MongoDB connected","timestamp":"2026-10-16T00:49:00.503Z"}
+{"env":"development","level":"info","message":"Server started on port 3000","timestamp":"2026-10-16T00:49:00.508Z"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"GET","path":"/health","status":200,"timestamp":"2026-10-16T00:49:03.995Z"}
+{"level":"info","message":"User registered","timestamp":"2026-10-16T00:49:04.136Z","user_id":"6ad174803cd8452823f09e4b","username":"usera_1743963"}
+{"duration_ms":108,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-16T00:49:04.137Z"}
+{"level":"info","message":"User registered","timestamp":"2026-10-16T00:49:04.260Z","user_id":"6ad174803cd8452823f09e4c","username":"userb_1743963"}
+{"duration_ms":99,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":201,"timestamp":"2026-10-16T00:49:04.260Z"}
+{"field":"username","level":"warn","message":"Signup rejected: duplicate","timestamp":"2026-10-16T00:49:04.282Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"A user with this username already exists","status":409,"timestamp":"2026-10-16T00:49:04.283Z"}
+{"duration_ms":5,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-16T00:49:04.284Z"}
+{"field":"email","level":"warn","message":"Signup rejected: duplicate","timestamp":"2026-10-16T00:49:04.311Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"A user with this email already exists","status":409,"timestamp":"2026-10-16T00:49:04.312Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":409,"timestamp":"2026-10-16T00:49:04.312Z"}
+{"fields":"email","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/user/signup","timestamp":"2026-10-16T00:49:04.335Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.335Z"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-16T00:49:04.336Z"}
+{"fields":"password","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/user/signup","timestamp":"2026-10-16T00:49:04.353Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.353Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-16T00:49:04.353Z"}
+{"fields":"username,email,password","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/user/signup","timestamp":"2026-10-16T00:49:04.370Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.370Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-16T00:49:04.371Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/signup","reason":"Malformed JSON in request body","status":400,"timestamp":"2026-10-16T00:49:04.392Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/signup","status":400,"timestamp":"2026-10-16T00:49:04.393Z"}
+{"level":"info","message":"Login successful","timestamp":"2026-10-16T00:49:04.499Z","user_id":"6ad174803cd8452823f09e4b","username":"usera_1743963"}
+{"duration_ms":89,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-16T00:49:04.500Z"}
+{"level":"info","message":"Login successful","timestamp":"2026-10-16T00:49:04.597Z","user_id":"6ad174803cd8452823f09e4c","username":"userb_1743963"}
+{"duration_ms":83,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":200,"timestamp":"2026-10-16T00:49:04.598Z"}
+{"by":"username","identifier":"usera_1743963","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:04.692Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:04.692Z"}
+{"duration_ms":80,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:04.693Z"}
+{"fields":",password","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/user/login","timestamp":"2026-10-16T00:49:04.716Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.716Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":400,"timestamp":"2026-10-16T00:49:04.717Z"}
+{"employee_id":"6ad174803cd8452823f09e4d","level":"info","message":"Employee created","timestamp":"2026-10-16T00:49:04.739Z","user_id":"6ad174803cd8452823f09e4b"}
+{"duration_ms":8,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-16T00:49:04.740Z","user_id":"6ad174803cd8452823f09e4b"}
+{"employee_id":"6ad174803cd8452823f09e4e","level":"info","message":"Employee created","timestamp":"2026-10-16T00:49:04.760Z","user_id":"6ad174803cd8452823f09e4b"}
+{"duration_ms":5,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-16T00:49:04.760Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"last_name,email,position,salary,date_of_joining,department","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.777Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.777Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:04.777Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"email","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.795Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.795Z"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:04.795Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"salary","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.812Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.812Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:04.813Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"date_of_joining","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.830Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.833Z"}
+{"duration_ms":5,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:04.833Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"","level":"warn","message":"Validation failed","method":"POST","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.852Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.852Z"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:04.852Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"A record with this field already exists","status":409,"timestamp":"2026-10-16T00:49:04.872Z"}
+{"duration_ms":6,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":409,"timestamp":"2026-10-16T00:49:04.872Z","user_id":"6ad174803cd8452823f09e4b"}
+{"ip":"127.0.0.1","level":"warn","message":"Auth failed: missing token","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.886Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Access denied. No token provided","status":401,"timestamp":"2026-10-16T00:49:04.886Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-16T00:49:04.886Z"}
+{"ip":"127.0.0.1","level":"warn","message":"Auth failed: invalid token","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:04.902Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/emp/employees","reason":"Invalid token","status":401,"timestamp":"2026-10-16T00:49:04.902Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-16T00:49:04.902Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-16T00:49:04.920Z","user_id":"6ad174803cd8452823f09e4b"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":200,"timestamp":"2026-10-16T00:49:04.936Z","user_id":"6ad174803cd8452823f09e4b"}
+{"employee_id":"6ad174803cd8452823f09e4d","fields":",position,salary","level":"info","message":"Employee updated","timestamp":"2026-10-16T00:49:04.957Z","user_id":"6ad174803cd8452823f09e4b"}
+{"duration_ms":9,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":200,"timestamp":"2026-10-16T00:49:04.958Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"salary","level":"warn","message":"Validation failed","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","timestamp":"2026-10-16T00:49:04.972Z"}
+{"level":"warn","message":"Request error","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.972Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":400,"timestamp":"2026-10-16T00:49:04.973Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"","level":"warn","message":"Validation failed","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","timestamp":"2026-10-16T00:49:04.992Z"}
+{"level":"warn","message":"Request error","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:04.993Z"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":400,"timestamp":"2026-10-16T00:49:04.993Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"eid","level":"warn","message":"Validation failed","method":"GET","path":"/api/v1/emp/employees/12345","timestamp":"2026-10-16T00:49:05.007Z"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees/12345","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:05.007Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/12345","status":400,"timestamp":"2026-10-16T00:49:05.008Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees/6650f0f0f0f0f0f0f0f0f0f0","reason":"Employee not found","status":404,"timestamp":"2026-10-16T00:49:05.026Z"}
+{"duration_ms":5,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6650f0f0f0f0f0f0f0f0f0f0","status":404,"timestamp":"2026-10-16T00:49:05.027Z","user_id":"6ad174803cd8452823f09e4b"}
+{"ip":"127.0.0.1","level":"warn","message":"Auth failed: missing token","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:05.039Z"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees","reason":"Access denied. No token provided","status":401,"timestamp":"2026-10-16T00:49:05.039Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees","status":401,"timestamp":"2026-10-16T00:49:05.039Z"}
+{"employee_id":"6ad174813cd8452823f09e50","level":"info","message":"Employee created","timestamp":"2026-10-16T00:49:05.057Z","user_id":"6ad174803cd8452823f09e4c"}
+{"duration_ms":5,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"POST","path":"/api/v1/emp/employees","status":201,"timestamp":"2026-10-16T00:49:05.058Z","user_id":"6ad174803cd8452823f09e4c"}
+{"duration_ms":2,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees","status":200,"timestamp":"2026-10-16T00:49:05.075Z","user_id":"6ad174803cd8452823f09e4c"}
+{"action":"read","employee_id":"6ad174813cd8452823f09e50","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.091Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees/6ad174813cd8452823f09e50","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.091Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6ad174813cd8452823f09e50","status":403,"timestamp":"2026-10-16T00:49:05.091Z","user_id":"6ad174803cd8452823f09e4b"}
+{"action":"update","employee_id":"6ad174813cd8452823f09e50","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.111Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"PUT","path":"/api/v1/emp/employees/6ad174813cd8452823f09e50","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.111Z"}
+{"duration_ms":6,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"PUT","path":"/api/v1/emp/employees/6ad174813cd8452823f09e50","status":403,"timestamp":"2026-10-16T00:49:05.111Z","user_id":"6ad174803cd8452823f09e4b"}
+{"action":"delete","employee_id":"6ad174813cd8452823f09e50","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.129Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"DELETE","path":"/api/v1/emp/employees","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.129Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":403,"timestamp":"2026-10-16T00:49:05.130Z","user_id":"6ad174803cd8452823f09e4b"}
+{"action":"read","employee_id":"6ad174803cd8452823f09e4d","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.146Z","user_id":"6ad174803cd8452823f09e4c"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.146Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":403,"timestamp":"2026-10-16T00:49:05.146Z","user_id":"6ad174803cd8452823f09e4c"}
+{"action":"update","employee_id":"6ad174803cd8452823f09e4d","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.164Z","user_id":"6ad174803cd8452823f09e4c"}
+{"level":"warn","message":"Request error","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.164Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"PUT","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4d","status":403,"timestamp":"2026-10-16T00:49:05.164Z","user_id":"6ad174803cd8452823f09e4c"}
+{"action":"delete","employee_id":"6ad174803cd8452823f09e4d","level":"warn","message":"Authorization failed: employee belongs to another user","timestamp":"2026-10-16T00:49:05.182Z","user_id":"6ad174803cd8452823f09e4c"}
+{"level":"warn","message":"Request error","method":"DELETE","path":"/api/v1/emp/employees","reason":"You are not allowed to access this employee","status":403,"timestamp":"2026-10-16T00:49:05.183Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":403,"timestamp":"2026-10-16T00:49:05.183Z","user_id":"6ad174803cd8452823f09e4c"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6ad174813cd8452823f09e50","status":200,"timestamp":"2026-10-16T00:49:05.198Z","user_id":"6ad174803cd8452823f09e4c"}
+{"employee_id":"6ad174803cd8452823f09e4e","level":"info","message":"Employee deleted","timestamp":"2026-10-16T00:49:05.213Z","user_id":"6ad174803cd8452823f09e4b"}
+{"duration_ms":3,"ip":"127.0.0.1","level":"info","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":204,"timestamp":"2026-10-16T00:49:05.213Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4e","reason":"Employee not found","status":404,"timestamp":"2026-10-16T00:49:05.230Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/emp/employees/6ad174803cd8452823f09e4e","status":404,"timestamp":"2026-10-16T00:49:05.230Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"DELETE","path":"/api/v1/emp/employees","reason":"Employee not found","status":404,"timestamp":"2026-10-16T00:49:05.248Z"}
+{"duration_ms":4,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":404,"timestamp":"2026-10-16T00:49:05.249Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"eid","level":"warn","message":"Validation failed","method":"DELETE","path":"/api/v1/emp/employees?eid=abc","timestamp":"2026-10-16T00:49:05.262Z"}
+{"level":"warn","message":"Request error","method":"DELETE","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:05.262Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:05.262Z","user_id":"6ad174803cd8452823f09e4b"}
+{"fields":"eid","level":"warn","message":"Validation failed","method":"DELETE","path":"/api/v1/emp/employees","timestamp":"2026-10-16T00:49:05.276Z"}
+{"level":"warn","message":"Request error","method":"DELETE","path":"/api/v1/emp/employees","reason":"Validation failed","status":400,"timestamp":"2026-10-16T00:49:05.276Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"DELETE","path":"/api/v1/emp/employees","status":400,"timestamp":"2026-10-16T00:49:05.276Z","user_id":"6ad174803cd8452823f09e4b"}
+{"level":"warn","message":"Request error","method":"GET","path":"/api/v1/unknown","reason":"Route not found: GET /api/v1/unknown","status":404,"timestamp":"2026-10-16T00:49:05.289Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"GET","path":"/api/v1/unknown","status":404,"timestamp":"2026-10-16T00:49:05.290Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.386Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.387Z"}
+{"duration_ms":80,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.387Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.496Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.496Z"}
+{"duration_ms":86,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.497Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.594Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.595Z"}
+{"duration_ms":84,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.595Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.720Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.720Z"}
+{"duration_ms":108,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.721Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.817Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.818Z"}
+{"duration_ms":83,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.818Z"}
+{"by":"username","identifier":"ratelimit_test","level":"warn","message":"Login failed: invalid credentials","timestamp":"2026-10-16T00:49:05.909Z"}
+{"level":"warn","message":"Request error","method":"POST","path":"/api/v1/user/login","reason":"Invalid username/email or password","status":401,"timestamp":"2026-10-16T00:49:05.910Z"}
+{"duration_ms":78,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":401,"timestamp":"2026-10-16T00:49:05.910Z"}
+{"ip":"127.0.0.1","level":"warn","message":"Rate limit exceeded (login)","path":"/api/v1/user/login","timestamp":"2026-10-16T00:49:05.927Z"}
+{"duration_ms":1,"ip":"127.0.0.1","level":"warn","message":"HTTP request","method":"POST","path":"/api/v1/user/login","status":429,"timestamp":"2026-10-16T00:49:05.927Z"}
